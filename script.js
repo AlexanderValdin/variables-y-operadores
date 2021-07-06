@@ -55,3 +55,14 @@ console.log('los ' + userInput + ' días equivalen a ' + years + ' años, ' + we
 
 
 // Ejercicio 5
+
+let numero1 = parseInt(prompt('Ingrese el primer número'));
+let numero2 = parseInt(prompt('Ingrese el segundo número'));
+let numero3 = parseInt(prompt('Ingrese el tercer número'));
+let numero4 = parseInt(prompt('Ingrese el cuarto número'));
+let numero5 = parseInt(prompt('Ingrese el quinto número'));
+
+let sumatotal = numero1 + numero2 + numero3 + numero4 + numero5;
+let promedio = sumatotal/5;
+
+console.log('La suma de los números es ' + sumatotal + ' y el promedio es '+ promedio);
